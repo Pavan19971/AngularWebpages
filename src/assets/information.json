@@ -1,0 +1,222 @@
+[{
+		"serviceno": "4037",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "5 hrs",
+		"type": "SUPER LUXURY(Non-AC, 2 + 2 Push Back)",
+		"price": "345",
+		"bustype":"A/C CLASS",
+		"boardingpoint": "ABIDS",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+
+	{
+		"serviceno": "4523",
+		"board": "00:50",
+		"destination": "09:00",
+		"duration": "8 hrs",
+		"type": "VENNELA (A.C. SLEEPER)",
+		"price": "1500",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "AMEERPET",
+		"droppingpoint": "VIJAYAWADA"
+	},
+	{
+		"serviceno": "1234",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "5 hrs",
+		"type": "VENNELA ECONOMY(2+1 A.C. SLEEPER)",
+		"price": "750",
+		"bustype":"A/C CLASS",
+		"boardingpoint": "ABIDS",
+		"droppingpoint": "VIJAYAWADA"
+	},
+	{
+		"serviceno": "5678",
+		"board": "00:10",
+		"destination": "04:00",
+		"duration": "5 hrs",
+		"type": "SUPER LUXURY(Non-AC, 2 + 2 Push Back)",
+		"price": "1999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "ABIDS",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+	{
+		"serviceno": "4232",
+		"board": "00:40",
+		"destination": "07:00",
+		"duration": "1 hrs",
+		"type": "SUPER LUXURY(Non-AC, 2 + 2 Push Back)",
+		"price": "1240",
+		"bustype":"A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "AUTO NAGAR"
+	},
+	{
+		"serviceno": "4544",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+	{
+		"serviceno": "6765",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "3 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "818",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "1232",
+		"board": "00:20",
+		"destination": "04:00",
+		"duration": "1 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "464",
+		"bustype":" A/C CLASS",
+		"boardingpoint": "ANANDBAGH",
+		"droppingpoint": "PORANKI"
+	},
+{
+		"serviceno": "4234",
+		"board": "00:10",
+		"destination": "08:00",
+		"duration": "4 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "743",
+		"bustype":"A/C CLASS",
+		"boardingpoint": "AMEERPET",
+		"droppingpoint": "PORANKI"
+	},
+{
+		"serviceno": "3434",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "453",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "6546",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "534",
+		"bustype":"A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "4343",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "6434",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "1235",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "6453",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "6534",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "4444",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "9783",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "3754",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	},
+{
+		"serviceno": "9264",
+		"board": "00:30",
+		"destination": "06:00",
+		"duration": "6 hrs",
+		"type": "AMARAVATHI (VOLVO / SCANIA A.C Multi Axle)",
+		"price": "999",
+		"bustype":"NON A/C CLASS",
+		"boardingpoint": "LB NAGAR",
+		"droppingpoint": "BENZ CIRCLE"
+	}
+]

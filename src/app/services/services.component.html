@@ -1,0 +1,225 @@
+ 		
+<html>
+
+  <body>
+      <div class="Forwardfilters" style="position: relative; top: 0px;">
+	
+
+
+          <div class="tcktfl FilterDivst" id="filterByDiv">
+          <div class="wrap">
+            <div class="filters">
+            <div class="filterby clearfix">
+              <p class="filertitle">Filter by</p>
+              
+            <div class="dropdown_custom_wrap">
+              
+              <ng-multiselect-dropdown class="ngfilter"
+              [placeholder]="'Select BusType'"
+              [data]="BusTypes"
+              [(ngModel)]="customfilter"
+              [settings]="dropdownSettings"
+              (onSelect)="onItemSelect($event)"
+              (onSelectAll)="onSelectAll($event)"></ng-multiselect-dropdown>
+                         
+            </div>
+              
+            <div class="dropdown_custom_wrap">
+              <ng-multiselect-dropdown class="ngfilter"
+              [placeholder]="'Boarding Point'"
+              [data]="BoardingPoints"
+              [(ngModel)]="customfilter1"
+              [settings]="dropdownSettings"
+              (onSelect)="onItemSelect($event)"
+              (onSelectAll)="onSelectAll($event)"></ng-multiselect-dropdown>
+            </div>
+            <div class="dropdown_custom_wrap">
+               
+
+              <ng-multiselect-dropdown
+              [placeholder]="'Dropping Points'"
+              [data]="DroppingPoints"
+              [(ngModel)]="customfilter2"
+              [settings]="dropdownSettings"
+              (onSelect)="onItemSelect($event)"
+              (onSelectAll)="onSelectAll($event)"></ng-multiselect-dropdown>
+            </div>
+            
+            
+              <div class="custom-slider">
+                  <ng5-slider [(value)]="minValue" [(highValue)]="maxValue" [options]="options" style="width:20%"></ng5-slider>
+                </div>
+            
+          </div>
+          
+              
+            <div class="sortby">
+              <p class="filertitle">Sort by</p>
+              <div class="dropdown_custom_wrap">
+                <div class="dropdown_custom" id="ddOpen5">
+                  Departure AM-PM
+                </div>
+                <ul class="dropdown_list" id="ddlist5" style="display: none;">
+                  <li title="Availability Desc" id="Avail_asc_btn">
+                    <label>
+                      Availability High-Low
+                    </label>
+                  </li>
+                    
+                  <li title="Availability Asc" id="Avail_desc_btn">
+                    <label>
+                      Availability Low-High
+                    </label>
+                  </li>
+                  
+                  
+                  
+                  <li title="Fare High-Low" id="Rate_asc_btn">
+                    <label>
+                      Fare High-Low
+                    </label>
+                  </li>
+                    
+                  <li title="Fare Low-High" id="Rate_desc_btn">
+                    <label>
+                      Fare Low-High
+                    </label>
+                  </li>
+                  
+                  <li title="Departure AM-PM" id="Start_asc_btn">
+                    <label>Departure time (morning to evening)</label>
+                  </li>
+                  <li title="Departure PM-AM" id="Start_desc_btn">
+                    <label>Departure time (evening to morning)</label>
+                  </li>
+                  <li title="Arrival AM-PM" id="Arive_asc_btn">
+                    <label>Arrival time (morning to evening)</label>
+                  </li>
+                  <li title="Arrival PM-AM" id="Arive_desc_btn">
+                    <label>Arrival time (evening to morning)</label>
+                  </li>							
+                                
+                </ul>
+              </div>
+            </div>
+       
+          </div>
+          </div>
+          </div>
+      </div>
+    <ul [@listStagger]="buses$" >
+      <li *ngFor="let bus of buses$ | paginate: { itemsPerPage: 10, currentPage: p } | boardingFilter: customfilter1 | busFilter: customfilter |
+       droppingFilter: customfilter2| priceFilter: minValue: maxValue ">
+  <div class="row">
+          <div class="col1">
+        <div class="srvceNO">
+          
+           <ul>
+           <li>{{bus.serviceno}}</li>
+           </ul>
+          
+        </div> 
+        
+      
+        
+        <p>
+        
+         MBXR-ATNR(GCBW)
+        </p>
+          </div>
+      
+          <div class="col2">
+        <span class="StrtTm curHand tooltipstered" id="bPtsDiv_Forward0">
+          
+            <ul>
+            <li>{{bus.board}}</li>
+            </ul>
+           
+        </span>
+              
+        → <span class="ArvTm curHand tooltipstered" id="aPtsDiv_Forward0">
+        
+            <ul>
+            <li>{{bus.destination}}</li>
+            </ul>
+           
+        </span>
+        
+               
+                
+                  <ul>
+                  <li>{{bus.duration}}</li>
+                  </ul>
+                
+              
+              
+              <div id="bTxtDv_Forward0" class="hideClasTxt"><div class="abPtsLiCs"><span class="abPtsHeader">Boarding Points</span><ul><li>23:15</li><li>MIYAPUR BLRM X ROAD</li></ul><ul><li>23:18</li><li>HYDERNAGAR</li></ul><ul><li>23:20</li><li>NIZAMPET</li></ul><ul><li>23:25</li><li>KPHB COLONY</li></ul><ul><li>23:28</li><li>KPHB RD NO -1 BUS STOP_ TIRUMALA BAKERY</li></ul><ul><li>23:30</li><li>RELIANCE BRAND FACTORY</li></ul><ul><li>23:32</li><li>MALAYSIAN CIRCLE-KPHB</li></ul><ul><li>23:35</li><li>KPHB 4TH PHASE - OPP ANKUR HOSPITAL</li></ul><ul><li>23:40</li><li>SHILPARAMAM</li></ul><ul><li>23:45</li><li>HITEX- HYD</li></ul><ul><li>23:50</li><li>KONDAPUR-HYD-SRIKRISHNA MEDICALS</li></ul><ul><li>23:55</li><li>GACHIBOWLI-CHAK DE RESTUARENT</li></ul><ul><li>23:59</li><li>SHAIKPET DARGAH CITY BUS STOP</li></ul><ul><li>00:05</li><li>MEHEDIPATNAM FLYOVER 9TH PILLAR</li></ul><ul><li>00:10</li><li>TELEPHONE BHAVAN-LKPL</li></ul><ul><li>00:15</li><li>ABIDS HYDERABAD</li></ul><ul><li>00:20</li><li>KOTI WOMENS COLLEGE</li></ul><ul><li>00:30</li><li>DILSUKHNAGAR</li></ul><ul><li>00:35</li><li>ASTALAXMI TEMPLE KAMAN</li></ul><ul><li>00:40</li><li>L.B.NAGAR- NEAR BANK OF INDIA- LPT MARKET</li></ul></div></div>
+              
+              <div id="aTxtDv_Forward0" class="hideClasTxt"><div class="abPtsLiCs"><span class="abPtsHeader"> Arrival Points</span><ul><li>06:00</li><li>VIJAYAWADA</li></ul><ul><li>06:20</li><li>AUTONAGAR - VJA</li></ul></div></div>
+              
+          </div>
+          
+      <div class="col3">
+             <div class="col3-left"><span>
+              
+                <ul>
+                <li>{{bus.type}}</li>
+                </ul>
+               
+            </span>
+            
+            
+              <p> Via: SRPT,KDD </p>
+            
+            </div>
+        
+        <div class="col3-right">
+          <p>
+            Depot: AUTONAGAR(VJA) 
+          </p>
+          
+          <div class="restStops">
+            
+            
+          </div>
+          
+          
+            <img src="//static.abhibus.com/ap_tg/ap/oprs-web/_assets/images/new/icon-vehicleTrack.png" title="GPS with Vehicle Tracking enabled." width="20px" height="20px" data-cycle-fx="tileBlind" data-cycle-tile-count="12">
+          
+        </div>
+         </div>
+       
+          <div class="col4">
+        <span class="availCs" availcs="32">
+          32Seats
+        </span>
+        <p> Window 16 </p>
+          </div>
+          
+          <div class="col5">
+        <span class="TickRate rupeeIco" tickrate="317"> 
+          
+            <ul>
+            <li>{{bus.price}}</li>
+            </ul>
+           
+        </span> 
+        
+        
+            <input type="button" name="SrvcSelectBtnForward" id="SrvcSelectBtnForward0" value="Select Seats" class="btnSelectLO" onclick="ajaxShowBoardingPoints('1537281542991'
+                , '1437000004345'
+                , '1437000004348'
+                , '9321'
+                , 'Forward'
+                , '0');">
+          
+          
+      </div>
+        
+      </div>
+    </li>
+     </ul>
+     <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </body>
+  <html>
+  
